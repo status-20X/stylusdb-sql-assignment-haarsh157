@@ -16,7 +16,7 @@ jobs:
       uses: actions/checkout@v4
     - name: Step-1 Test
       id: step-1-test
-      uses: classroom-resources/autograding-command-grader@v1
+      uses: education/autograding-command-grader@v1
       with:
         test-name: Step-1 Test
         setup-command: npm install
@@ -25,7 +25,7 @@ jobs:
         max-score: 10
     - name: Step-2 Test
       id: step-2-test
-      uses: classroom-resources/autograding-command-grader@v1
+      uses: education/autograding-command-grader@v1
       with:
         test-name: Step-2 Test
         setup-command: npm install
@@ -34,7 +34,7 @@ jobs:
         max-score: 10
     - name: Step-3 Test
       id: step-3-test
-      uses: classroom-resources/autograding-command-grader@v1
+      uses: education/autograding-command-grader@v1
       with:
         test-name: Step-3 Test
         setup-command: npm install
@@ -43,15 +43,16 @@ jobs:
         max-score: 10
     - name: Step-4 Test
       id: step-4-test
-      uses: classroom-resources/autograding-command-grader@v1
+      uses: education/autograding-command-grader@v1
       with:
         test-name: Step-4 Test
         setup-command: npm install
         command: npm run test:4
         timeout: 10
+        max-score: 10
     - name: Step-5 Test
       id: step-5-test
-      uses: classroom-resources/autograding-command-grader@v1
+      uses: education/autograding-command-grader@v1
       with:
         test-name: Step-5 Test
         setup-command: npm install
@@ -60,7 +61,7 @@ jobs:
         max-score: 10
     - name: Step-6 Test
       id: step-6-test
-      uses: classroom-resources/autograding-command-grader@v1
+      uses: education/autograding-command-grader@v1
       with:
         test-name: Step-6 Test
         setup-command: npm install
@@ -69,7 +70,7 @@ jobs:
         max-score: 10
     - name: Step-7 Test
       id: step-7-test
-      uses: classroom-resources/autograding-command-grader@v1
+      uses: education/autograding-command-grader@v1
       with:
         test-name: Step-7 Test
         setup-command: npm install
@@ -78,7 +79,7 @@ jobs:
         max-score: 10
     - name: Step-8 Test
       id: step-8-test
-      uses: classroom-resources/autograding-command-grader@v1
+      uses: education/autograding-command-grader@v1
       with:
         test-name: Step-8 Test
         setup-command: npm install
@@ -87,7 +88,7 @@ jobs:
         max-score: 10
     - name: Step-9 Test
       id: step-9-test
-      uses: classroom-resources/autograding-command-grader@v1
+      uses: education/autograding-command-grader@v1
       with:
         test-name: Step-9 Test
         setup-command: npm install
@@ -96,7 +97,7 @@ jobs:
         max-score: 10
     - name: Step-10 Test
       id: step-10-test
-      uses: classroom-resources/autograding-command-grader@v1
+      uses: education/autograding-command-grader@v1
       with:
         test-name: Step-10 Test
         setup-command: npm install
@@ -105,7 +106,7 @@ jobs:
         max-score: 10
     - name: Step-11 Test
       id: step-11-test
-      uses: classroom-resources/autograding-command-grader@v1
+      uses: education/autograding-command-grader@v1
       with:
         test-name: Step-11 Test
         setup-command: npm install
@@ -114,7 +115,7 @@ jobs:
         max-score: 10
     - name: Step-12 Test
       id: step-12-test
-      uses: classroom-resources/autograding-command-grader@v1
+      uses: education/autograding-command-grader@v1
       with:
         test-name: Step-12 Test
         setup-command: npm install
@@ -123,7 +124,7 @@ jobs:
         max-score: 10
     - name: Step-13 Test
       id: step-13-test
-      uses: classroom-resources/autograding-command-grader@v1
+      uses: education/autograding-command-grader@v1
       with:
         test-name: Step-13 Test
         setup-command: npm install
@@ -132,7 +133,7 @@ jobs:
         max-score: 10
     - name: Step-14 Test
       id: step-14-test
-      uses: classroom-resources/autograding-command-grader@v1
+      uses: education/autograding-command-grader@v1
       with:
         test-name: Step-14 Test
         setup-command: npm install
@@ -141,7 +142,7 @@ jobs:
         max-score: 10
     - name: Step-15 Test
       id: step-15-test
-      uses: classroom-resources/autograding-command-grader@v1
+      uses: education/autograding-command-grader@v1
       with:
         test-name: Step-15 Test
         setup-command: npm install
@@ -150,7 +151,7 @@ jobs:
         max-score: 10
     - name: Step-16 Test
       id: step-16-test
-      uses: classroom-resources/autograding-command-grader@v1
+      uses: education/autograding-command-grader@v1
       with:
         test-name: Step-16 Test
         setup-command: npm install
@@ -159,7 +160,7 @@ jobs:
         max-score: 10
     - name: Step-17 Test
       id: step-17-test
-      uses: classroom-resources/autograding-command-grader@v1
+      uses: education/autograding-command-grader@v1
       with:
         test-name: Step-17 Test
         setup-command: npm install
@@ -168,7 +169,7 @@ jobs:
         max-score: 10
     - name: Step-18 Test
       id: step-18-test
-      uses: classroom-resources/autograding-command-grader@v1
+      uses: education/autograding-command-grader@v1
       with:
         test-name: Step-18 Test
         setup-command: npm install
@@ -177,7 +178,7 @@ jobs:
         max-score: 10
     - name: Step-19 Test
       id: step-19-test
-      uses: classroom-resources/autograding-command-grader@v1
+      uses: education/autograding-command-grader@v1
       with:
         test-name: Step-19 Test
         setup-command: npm install
@@ -186,7 +187,7 @@ jobs:
         max-score: 10
     - name: Step-20 Test
       id: step-20-test
-      uses: classroom-resources/autograding-command-grader@v1
+      uses: education/autograding-command-grader@v1
       with:
         test-name: Step-20 Test
         setup-command: npm install
@@ -194,7 +195,7 @@ jobs:
         timeout: 10
         max-score: 10
     - name: Autograding Reporter
-      uses: classroom-resources/autograding-grading-reporter@v1
+      uses: education/autograding-grading-reporter@v1
       env:
         STEP-1-TEST_RESULTS: "${{steps.step-1-test.outputs.result}}"
         STEP-2-TEST_RESULTS: "${{steps.step-2-test.outputs.result}}"
